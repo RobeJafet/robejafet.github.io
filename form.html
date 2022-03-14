@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap_css/bootstrap.css">
+    <script src="/bootstrap_js/bootstrap.js"></script>
+    <title>Mi pagina web</title>
+    <div class="text-center" style = "margin-top: 80px;">
+      <img class="rounded float" width="300" src="./ImagenesHambu/Titulo.JPG">
+    </div>
+</head>
+    
+    <body style = "background-color: #F2E8DC;" class = "position-relative">
+        <ul class="nav nav-pills mb-3 container d-flex justify-content-center" style="margin-top: 30px;" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button onclick="document.location='index.html'" class="nav-link fs-5 fw-bold" style="margin-right: 20px;"  id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-introduccion" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Introduccion</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button onclick="document.location='galeria.html'"  class="nav-link fs-5 fw-bold" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-galeria" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Galeria</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button  onclick="document.location='form.html'" class="nav-link active fs-5 fw-bold" style="margin-left: 20px;" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contacto" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contacto</button>
+            </li>
+        </ul>
+           
+
+           <form class = "container-sm w-50 p-5" style = "padding: 100px; background-color: #A69F97; border-radius: 3%; margin-top: 80px">
+            <h2 class="text-center" style="color: #732720; margin-bottom: 50px;">Formulario de Contacto</h2>
+            <div class="row">
+              <div class="col">
+                <label for="NombreControl" class="font-weight-bold">Nombre</label>
+                <input type="text" class="form-control" id="Nom" placeholder="Juan Alvarez">
+              </div>
+              <div class="col">
+                <label for="TelefonoControl" class="font-weight-bold">Numero de Telefono</label>
+                <input type="text" class="form-control" id="NumTel" placeholder="464 532 6132">
+              </div>
+            </div>
+            <div class="row" style = "margin-top: 20px">
+              <div>
+                <label for="CorreoControl" class="font-weight-bold">Correo Electronico</label>
+                <input type="text" class="form-control" id="CorreoElec" placeholder="ejemplo@ugto.mx">
+              </div>
+            </div>
+            <div class="row" style = "margin-top: 20px"></div>
+              <div class="form-group" style = "margin-top: 20px">
+                <label for="exampleFormControlTextarea1">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            <div class="row" style="margin-top: 40px">
+              <div class="col"></div>
+              <div class="col"></div>
+              <div class="col"></div>
+              <div class="col">
+                <a class="btn btn-success text-right btn-lg " href="#" role="button">Enviar Mensaje</a>               
+              </div>
+            </div>
+          </form>
+    </body>
+
+
+    <footer class="text-lg-start text-muted" style = "color: #F2E8DC; margin-top: 300px;">
+      <!-- Section: Links  -->
+        <div class="container text-center">
+          <!-- Grid row -->
+          <div class="row mt-3">
+    
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i></i>Descripcion
+              </h6>
+              <p>
+                Pagina Web que se desarrollo para la tienda de un restaurante de hamburguesas.
+              </p>
+            </div>
+
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i></i>Elaborado por:
+              </h6>
+              <p>
+                Roberto Jafet Perez Vazquez 
+              </p>
+              <p>
+                Nua: 392572 
+              </p>
+              <p>
+                Division de Ingenierias Campus Irapuato-Salamanca
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i></i>Materia
+              </h6>
+              <p>
+                Pagina Web que se desarrollo para la clase de Aplicaciones de Internet
+              </p>
+            </div>
+    </footer>
+ </html>

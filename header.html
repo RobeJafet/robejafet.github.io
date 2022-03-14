@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="bootstrap_css/bootstrap.css">
+        <script src="/bootstrap_js/bootstrap.js"></script>
+        <title>Mi pagina web</title>
+    </head>
+    
+    <body style = "background-color: #F2E8DC;" class = "position-relative">
+        <ul class="nav nav-pills mb-3 container d-flex justify-content-center" style="margin-top: 10px;" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button href = "/" class="nav-link active fs-5 fw-bold" style="margin-right: 20px;"  id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-introduccion" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Introduccion</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button onclick="document.location='galeria.html'"  class="nav-link fs-5 fw-bold" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-galeria" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Galeria</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button  onclick="document.location='form.html'" class="nav-link fs-5 fw-bold" style="margin-left: 20px;" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contacto" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contacto</button>
+            </li>
+           </ul>
+    </body>
+ </html>
